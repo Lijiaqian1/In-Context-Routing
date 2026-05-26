@@ -31,7 +31,7 @@ Existing implicit ICL methods try to compress demonstrations into dense vectors 
 **ICR** takes a different route: it works directly in the **attention logits space**, where query-key interactions determine how information flows inside the model.
 
 <p align="center">
-  <img src="assets/icr_pipeline.pdf" width="85%" alt="ICR overview"/>
+  <img src="assets/icr_pipeline.png" width="85%" alt="ICR overview"/>
 </p>
 
 ICR consists of three main stages:
